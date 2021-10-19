@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(225deg, rgb(225, 0, 229) 20%, rgb(43, 171, 217) 81%);
+    font-family: "gruppo", sans-serif;
+}
+
+@font-face {
+    font-family: gruppo;
+    src: url('../fonts/Gruppo-Regular.ttf') format('truetype');
+}
+.container {
+    background-color: #ffffff;
+    width: 31rem;
+    height: 41rem;
+    margin: 16rem auto ;
+    text-align: center;
+    border-radius: 25px;
+}
+.forgot, .sign_up2  {
+    text-decoration: none;
+}
+
+input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid silver;
+    width: 22rem;
+    height: 25px;
+    font-size: 12px;
+    margin:40px auto 0 auto;
+    position: relative;
+}
+h1 {
+    padding: 50px 0 50px 0;
+}
+.in {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 15px;
+    color: slategray;
+}
+.un ,.pass{
+    position: absolute;
+    margin-left: 75px;
+}
+.pass{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 85px;
+}
+.forgot {
+    margin-left: 50%;
+    font-size: 13px;
+    color: slategray;
+}
+
+input[type="submit"] {
+    width: 19rem;
+    height: 2rem;
+    margin: 30px auto;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(225deg, rgb(225, 0, 229) 20%, rgb(43, 171, 217) 81%);
+    border: none;
+}
+p {
+    color: slategray;
+    font-size: 13px;
+    margin:20px auto 10px auto;
+}
+.image img{
+    margin: 10px;
+}
+.sign_up {
+    margin-top: 100px;
+}
+.sign_up2 {
+    font-size: 15px;
+    color: slategray;
+    text-transform: uppercase;
+}
+input::placeholder {
+    color: silver;
+}
